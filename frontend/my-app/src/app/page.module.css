@@ -1,0 +1,44 @@
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 16px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  padding-left: 18px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-top: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.input, .select {
+  width: 100%;
+  padding: 8px;
+}
+
+.btn {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.small {
+  font-size: 12px;
+  color: #666;
+}
